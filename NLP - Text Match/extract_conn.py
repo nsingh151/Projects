@@ -92,8 +92,8 @@ class Sql_connection():
 ## Connection String 
 DATABASE = {
     # --------------------
-    'hostname': '172.27.6.30',
+    'hostname': '***.**.*.**',  -- your DB server name
     # --------------------
-    'username': 'sa',
-    'password': 'GLG1234!'
+    'username': '****',           -- Username
+    'password': '******'      -- Password
 }
