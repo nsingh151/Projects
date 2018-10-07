@@ -33,14 +33,14 @@ class data_cleaning():
         Clean dictionary for the stop words and puntuation for further analysis
         
         '''
-        stop = stopwords.words('english') + list(string.punctuation)
+        stop = stopwords.words('english') + list(string.punctuation) 
         for key, value in self.cm_dict.items():
 #             print("initial value\n ", self.cm_dict[key])
             if value =='' or value is None:
                 value='Unknown'
 #             print("count :", cnt)
 #             print("key :" , key)
-            word_list= [i for i in word_tokenize(value.lower()) if i not in stop]
+            word_list= [i for i in word_tokenize(value.lower()) if i not in stop and i.isalpha()]
 #             print(c)
             sentence=""
             for word in word_list:
