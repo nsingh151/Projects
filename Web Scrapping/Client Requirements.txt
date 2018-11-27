@@ -1,0 +1,21 @@
+Project #1: 
+
+I'm looking to collect 20,000 to 30,000 pieces of verified data of home builders, luxury realtors, construction companies, architects, and  landscaping companies in Los Angeles, California.
+
+
+
+I'm looking to collect these data points,
+
+
+
+- name
+
+- company 
+
+- position title
+
+- phone number
+
+- email 
+
+- company website
