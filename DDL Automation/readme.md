@@ -7,5 +7,5 @@
 3. Install the required packages listed in [requirements.txt file](https://github.com/nsingh151/Projects/blob/master/DDL%20Automation/requiremnets.txt.txt) using ``` pip install <package name> ``` or ``` pip install -r requirements.txt ```
 
 4. Run [DDL Creation script](https://github.com/nsingh151/Projects/blob/master/DDL%20Automation/DDL_Creation_script.py)  using ``` python DDL_Creation_script.py ```
-    - Script will ask for the Path where Source to Target mapping resides (**Note: Give complete path along with the file name**)
-    - Script will ask the folder where you want to save Auto generated DDL (**Note: give complete path till the folder name file name will be auto added**)
+    - Script will ask for the Path where Source to Target mapping resides (**Note: Give complete path along with the file name for eg. : C:\Github\Projects\DDL Automation\test_source_to_target.xlsx**)
+    - Script will ask the folder where you want to save Auto generated DDL (**Note: give complete path till the folder name file name will be auto added for illustration: C:\Github\BI_vdw\WARS\Facts**)
