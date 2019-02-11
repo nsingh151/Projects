@@ -4,7 +4,7 @@
 
 2. Once Model is finalised , create a source to target mapping on your local machine taking this mapping as [standard document](https://github.com/nsingh151/Projects/blob/master/DDL%20Automation/test_source_to_target.xlsx).
 
-3. Install the required packages listed in [requirements.txt file](https://github.com/nsingh151/Projects/blob/master/DDL%20Automation/requiremnets.txt.txt) using ``` pip install <package name> ``` or ``` pip install -r requiremnets.txt ```
+3. Install the required packages listed in [requirements.txt file](https://github.com/nsingh151/Projects/blob/master/DDL%20Automation/requiremnets.txt.txt) using ``` pip install <package name> ``` or ``` pip install -r requirements.txt ```
 
 4. Run [DDL Creation script](https://github.com/nsingh151/Projects/blob/master/DDL%20Automation/DDL_Creation_script.py)  ``` python DDL_Creation_script.py ```
     - Script will ask for the Path where Source to Target mapping resides (**Note: Give complete path along with the file name**)
