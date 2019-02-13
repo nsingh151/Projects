@@ -25,7 +25,7 @@ data = data.replace(np.nan, 'NA', regex=True)
 print("\nShape of the data after replacing NaN", data.shape)
 
 ## Final DDL Creation Script
-file_name = data['Table_Name'][0].upper()+".sql"
+file_name = "TB_"+data['Table_Name'][0].upper()+".sql"
 print("\nDDL File Name : ",file_name)
 
 file_path = input(r"Enter the location ( Folder location ) where you want to save the DDL File: ")
@@ -37,10 +37,9 @@ print("\nDDL File Path : ",file_path )
 with open(file_path, 'w') as f:
     
     #Table related Analysis
-    f.write("/* \n\n Definition: {}\n\n Rational: {} \n\n Data Analysis: \n\n {}\n\n Attribution Level Information: \n\n{}\n\n\n */ \n\n\n  Create Table Wars.bi.{}  \n\n   ( \n".format(data['Table_Defination'][0],
+    f.write("/* \n\n Definition: {}\n\n Rational: {} \n\n Data Analysis: \n\n {}\n\n\n */ \n\n\n  Create Table bi.{}  \n\n   ( \n".format(data['Table_Defination'][0],
                                                                                                                             data['Table_Rational'][0],
                                                                                                                             data['Table_Data_Analysis'][0],
-                                                                                                                            data['Attribution_Level_Information'][0],
                                                                                                                             data['Table_Name'][0]))
     column_count = 0
     #Column related Analysis
